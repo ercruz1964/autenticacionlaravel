@@ -7,11 +7,12 @@
     <meta name="description" content="@yield('meta-descripcion','valor por defecto')">
     <title>Proyecto Adsi 2022 - @yield('title')</title>
     
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    @vite(['resources/css/app.scss','resources/js/app.js'])
 </head>
 <body>
     @include('partials.navigation')
-
+    <h3>proyecto de prueba</h3>
+    
     @yield('content')
 </body>
 </html>
